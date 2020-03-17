@@ -46,4 +46,10 @@
     .progress-bar-danger {
         border-bottom-color: #ee2f31;
     }
+}
+
+@media (max-width: 767.98px) {
+    .sidebar-wrapper {
+        width: 100%;
     }
+}
