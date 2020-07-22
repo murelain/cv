@@ -5,19 +5,20 @@
 .sidebar-wrapper .profile {
     border: 0px solid #000;
     border-radius: 50%;
-  }
+    max-width: 120px;
+}
 
-  .sidebar-wrapper .container-block {
+.sidebar-wrapper .container-block {
     padding: 25px;
-  }
+}
 
-  @media print {
+@media print {
     .progress {
         position: relative;
     }
     .progress:before {
         display: block;
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         right: 0;
